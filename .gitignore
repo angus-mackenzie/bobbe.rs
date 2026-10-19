@@ -1,1 +1,11 @@
-imgs
+imgs/
+node_modules/
+dist/
+.astro/
+.wrangler/
+.env
+.env.*
+!.env.example
+.DS_Store
+output/playwright/
+.playwright-cli/
