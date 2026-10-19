@@ -1,6 +1,6 @@
 export const site = {
   name: 'Beach Bobbers',
-  description: 'Cold water. Good company. A social ocean-swimming club on the Atlantic Seaboard. Join us every Monday and Thursday at 7AM.',
+  description: 'Kurwa Bóbr',
   join: '/join',
   instagram: 'https://www.instagram.com/beachbobbers/',
   email: 'hello@bobbe.rs',
