@@ -1,6 +1,6 @@
 # Beach Bobbers
 
-Start Cool. Leave Cooler. A social ocean-swimming club on the Atlantic Seaboard.
+The beach bobbers website
 
 ![The Beach Bobbers landing page](docs/website.webp)
 

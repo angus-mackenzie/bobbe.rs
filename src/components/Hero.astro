@@ -6,15 +6,14 @@ import Arrow from './Arrow.astro';
 ---
 <section class="hero shell" aria-labelledby="hero-title">
   <div class="hero-copy">
-    <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> A social ocean-swimming club</p>
     <h1 id="hero-title">Start Cool.<br /><span>Leave Cooler</span></h1>
     <div class="hero-bottom">
-      <p>A little ocean.<br />A little out of your comfort zone.<br />A very good start to your day.</p>
+      <p>A cold start to any day.</p>
       <a class="text-link" href={site.join}>Come for a bob <Arrow diagonal /></a>
     </div>
   </div>
   <figure class="hero-photo">
     <Picture src={hero.image} alt={hero.alt} formats={['avif', 'webp']} fallbackFormat="jpeg" widths={[400, 800, 1280, 1920, 2560]} sizes="(min-width: 1600px) 1472px, (min-width: 640px) calc(100vw - 96px), calc(100vw - 40px)" quality={76} loading="eager" fetchpriority="high" />
-    <figcaption><span>Less scrolling. More floating.</span><span>Atlantic Seaboard, South Africa</span></figcaption>
+    <figcaption><span>Camps Bay Tidal Pool</span></figcaption>
   </figure>
 </section>

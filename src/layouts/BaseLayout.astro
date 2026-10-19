@@ -5,7 +5,7 @@ import { hero } from '../data/gallery';
 import '../styles/global.css';
 
 interface Props { title?: string; }
-const { title = `${site.name} Social Club — Start Cool. Leave Cooler` } = Astro.props;
+const { title = `${site.name} Start Cool. Leave Cooler` } = Astro.props;
 const socialImage = await getImage({ src: hero.image, width: 1200, format: 'jpeg', quality: 78 });
 const canonical = new URL(Astro.url.pathname, Astro.site);
 ---

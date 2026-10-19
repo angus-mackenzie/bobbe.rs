@@ -4,7 +4,7 @@ Create a branch in a Git worktree. Keep changes focused and use conventional com
 
 ## Content and photographs
 
-Club copy and links live in `src/config/site.ts`. The Google Form destination is defined in `public/_redirects`; keep both join routes pointing to the same destination.
+Club copy and links live in `src/config/site.ts`. The Google Form destination is defined in `astro.config.mjs` for development and static previews, and in `public/_redirects` for Cloudflare. Keep these destinations in sync.
 
 Keep original photographs in the ignored `imgs/` directory. Prepare a small source copy before adding it to the gallery:
 
