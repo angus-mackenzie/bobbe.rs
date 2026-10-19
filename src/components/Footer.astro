@@ -1,0 +1,10 @@
+---
+import { site } from '../config/site';
+import Arrow from './Arrow.astro';
+---
+<footer class="site-footer shell">
+  <a class="wordmark" href="/">beach bobbers<span>Social Club</span></a>
+  <p>Start cool. Stay connected.</p>
+  <nav aria-label="Contact"><a href={site.instagram} target="_blank" rel="noopener noreferrer">Instagram <Arrow diagonal /><span class="sr-only"> (opens in a new tab)</span></a><a href={`mailto:${site.email}`}>{site.email} <Arrow diagonal /></a></nav>
+  <div class="footer-bottom"><span>Beach Bobbers Social Club</span><span>A little saltwater goes a long way.</span><a href="#top">Back to top ↑</a></div>
+</footer>

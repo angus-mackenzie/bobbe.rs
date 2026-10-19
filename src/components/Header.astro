@@ -1,0 +1,12 @@
+---
+import { site } from '../config/site';
+import Arrow from './Arrow.astro';
+---
+<header class="site-header shell">
+  <a class="wordmark" href="/" aria-label="Beach Bobbers home">beach bobbers<span>Social Club</span></a>
+  <nav aria-label="Main navigation" class="flex items-center gap-6 sm:gap-9">
+    <a href="#about">The club</a>
+    <a href="#gallery">The good stuff</a>
+    <a class="nav-join" href={site.join}>Join us <Arrow diagonal /></a>
+  </nav>
+</header>

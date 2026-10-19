@@ -1,0 +1,11 @@
+---
+import { site } from '../config/site';
+import Arrow from './Arrow.astro';
+---
+<section class="join" aria-labelledby="join-title">
+  <div class="shell join-inner">
+    <p class="eyebrow">Your next good morning starts here</p>
+    <h2 id="join-title">Go on.<br />Take the plunge.</h2>
+    <div class="join-bottom"><p>{site.schedule}<br />Fill in the form and we’ll share the exact location.</p><a class="join-button" href={site.join}>Join the bobbers <Arrow diagonal /></a></div>
+  </div>
+</section>

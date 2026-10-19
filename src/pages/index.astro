@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import About from '../components/About.astro';
+import Gallery from '../components/Gallery.astro';
+import Join from '../components/Join.astro';
+import Footer from '../components/Footer.astro';
+---
+<BaseLayout>
+  <div id="top"></div>
+  <Header />
+  <main id="main" tabindex="-1"><Hero /><About /><Gallery /><Join /></main>
+  <Footer />
+</BaseLayout>
