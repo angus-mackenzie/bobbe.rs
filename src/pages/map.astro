@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import BobMap from '../components/BobMap.astro';
+---
+<BaseLayout title="Bob map - Beach Bobbers" description="Bobbers’ Bobspots. This highlights all the places our members have bobbed in the world.">
+  <Header />
+  <main class="shell map-page" id="main" tabindex="-1"><BobMap /></main>
+  <Footer />
+</BaseLayout>

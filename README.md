@@ -29,6 +29,8 @@ Astro generates static HTML with Tailwind CSS and no application JavaScript. Sec
 
 Cloudflare Workers serves `dist`; `/join` redirects to the club’s Google Form. GitHub Actions validates pull requests and main-branch changes. Deployment is a separate step after review.
 
+`/map` embeds [marionboynton’s Bobspots map](https://github.com/marionboynton/bobbers) from Google My Maps, with links to open it or add a spot. The map is maintained by its creator.
+
 ## Contribute
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for adding photos, checking the UI and preparing changes.

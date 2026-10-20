@@ -4,9 +4,10 @@ import Arrow from './Arrow.astro';
 ---
 <header class="site-header shell">
   <a class="wordmark" href="/" aria-label="Beach Bobbers home">beach bobbers</a>
-  <nav aria-label="Main navigation" class="flex items-center gap-6 sm:gap-9">
+  <nav aria-label="Main navigation" class="flex items-center gap-4 sm:gap-6">
     <a href="/#about">The Bobbers</a>
     <a href="/#gallery">Some pix</a>
+    <a href={site.map} aria-current={Astro.url.pathname.replace(/\/$/, '') === site.map ? 'page' : undefined}>Bob map</a>
     <a class="nav-join" href={site.join}>Join us <Arrow diagonal /></a>
   </nav>
 </header>

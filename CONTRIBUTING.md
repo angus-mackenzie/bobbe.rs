@@ -6,6 +6,8 @@ Create a branch in a Git worktree. Keep changes focused and use conventional com
 
 Club copy and links live in `src/config/site.ts`. The Google Form destination is defined in `astro.config.mjs` for development and static previews, and in `public/_redirects` for Cloudflare. Keep these destinations in sync.
 
+The `/map` page embeds the public Google My Map used by [marionboynton/bobbers](https://github.com/marionboynton/bobbers). Its map ID, links and attribution live in `src/config/bob-map.ts`. Map edits are managed in Google My Maps and appear in the embed without a site rebuild. Keep the creator credit and direct map link available.
+
 Keep original photographs in the ignored `imgs/` directory. Prepare a small source copy before adding it to the gallery:
 
 ```sh
